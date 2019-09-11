@@ -3,3 +3,6 @@ function findMatching(list, name) {
  return list.filter(function (el) { return el.toUpperCase() === name.toUpperCase()});
 }
 
+function  fuzzyMatch() {
+  
+}
