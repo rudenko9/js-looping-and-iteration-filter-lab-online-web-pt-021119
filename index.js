@@ -10,3 +10,7 @@ function  fuzzyMatch(list, name) {
 function  matchName(list, name) {
   return list.filter(function(el) {return el.name === name});
 }
+
+//function matchName(list, name) {
+ // return list.filter(el => el.name === name);
+//}
