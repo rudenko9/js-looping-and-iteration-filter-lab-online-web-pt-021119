@@ -1,4 +1,8 @@
 // Code your solution in this file
-function findMatching(drivers, name) {
-  for (const driver of )
+function findMatching(collection, name) {
+  for (const driver of collection) {
+    if (driver.name === name) {
+      console.log(driver.name);
+    }
+  }
 }
